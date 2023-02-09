@@ -19,7 +19,7 @@ arcade.draw_polygon_filled(((40, 100), (110, 30), (310, 30), (380, 100)), arcade
 # La bandera del barco
 arcade.draw_line(210, 100, 210, 300, arcade.color.DARK_BROWN, 3)
 arcade.draw_triangle_filled(212.5, 150, 212.5, 300, 253, 170, arcade.color.WHITE)
-# Los pájaros del cielo
+# Los pájaros
 
 def pajaro(left, right, bottom, color = arcade.color.WHITE):
     radio = (right-left)
